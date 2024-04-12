@@ -1,4 +1,4 @@
-// variável da DIV DO MENU
+﻿// variável da DIV DO MENU
 const menu = document.getElementById("menu")
 // variável do botão de ver carrinho
 const cartBtn = document.querySelector("#cart-btn")
@@ -193,7 +193,7 @@ checkoutBtn.addEventListener("click", function(){
     }).join("")
 
     const message = encodeURIComponent(cartItem)
-    const phone = "85985680661"
+    const phone = "+5585985680661"
 
     cart = []
     addressInput.value = ''
